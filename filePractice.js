@@ -18,7 +18,9 @@ fs.stat(a, (error, stats) => {
       else if(stats.isDirectory())console.log("is a directory");
     }
 });
+
 console.log("-------------------------");
+
 fs.readdir(a, (err, files) => {
     if (err)
       console.log(err);
